@@ -1,0 +1,28 @@
+#sideNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#sideNav li a {
+    display: block;
+    color: white;
+    padding: 8px;
+	margin-bottom:15px;
+    text-decoration: none;
+	background-color: #3F5185;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#sideNav li a.active {
+    background-color: #000066;
+    color: white;
+}
+
+#sideNav li a:hover:not(.active) {
+    background-color: white;
+    color: #000066;
+}

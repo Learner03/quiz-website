@@ -1,0 +1,17 @@
+#counter{
+	width:30%;
+	position:fixed;
+	top:10%;
+	right:0;
+}
+.ques{
+	width:60%;
+    margin-left: 5%;
+	margin-bottom: 5%;
+	padding-top:85px;
+}
+#submit{
+	padding:10px;
+	margin-bottom:10%;
+	
+}
